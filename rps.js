@@ -15,10 +15,10 @@ function play(playerMove) {
         result = "You win!";
     } else {
         computerScore++;
-        result = "Computer wins!";
+        result = "NPC wins!";
     }
 
-    document.getElementById("result").innerHTML = `You chose ${playerMove}, computer chose ${computerMove}. ${result}`;
+    document.getElementById("result").innerHTML = `You chose ${playerMove}, NPC chose ${computerMove}. ${result}`;
     document.getElementById("playerScore").innerHTML = playerScore;
     document.getElementById("computerScore").innerHTML = computerScore;
 }
