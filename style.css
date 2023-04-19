@@ -15,7 +15,7 @@
 html, body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #BDD4E7;
     border: 0.2rem solid #8693AB;
     height: 100%;
@@ -48,7 +48,7 @@ button:hover {
 
 img {
     object-fit: contain;
-    height: 10rem;
+    height: 15rem;
 }
 
 .playerScoreSection, .NPCScoreSection {
